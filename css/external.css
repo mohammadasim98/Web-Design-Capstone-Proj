@@ -1,0 +1,158 @@
+
+.container img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+h1{
+	font-size: 200%;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 1em;
+}
+h2{
+	font-size: 150%;
+	text-align: left;
+}
+nav{
+	border: solid #000000;
+	border-radius: 10px;
+	background-color: #404949;
+}
+nav a{
+	color: white;
+}
+nav a:hover{
+	opacity: 75%;
+	background-color: white;
+	color: #000000;
+	transition: all 0.1s;
+}
+#guide{
+	display: none;
+}
+#home{
+	text-align: center;
+}
+#about{
+	text-align: center;
+}
+.dropdown button{
+	padding: 8px;
+	background-color: #404949;
+	border: none;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 13px;
+}
+
+#burger{
+	background-color: grey;
+	border:none;
+}
+.dropdown-menu{
+	width: 100%;
+	transition: 0.3s all smooth;
+	border-radius: 10px;
+	box-shadow: 0px 0px 11px -2px black;
+}
+.dropdown-item{
+		text-align: center;
+}
+.dropdown-item:hover{
+	transition: all 0.3s;
+	background-color: #888888;
+	opacity: 150%;
+	color: #ffffff;
+	border-radius: 10px;
+	border-bottom: none;
+
+}
+.nav-link{
+	display: none;
+}
+#darkmode{
+	display: none;
+    background: #404949;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
+#darkmode:hover{
+	background-color: darkgray;
+	color: black;
+
+}
+
+footer a{
+	display: inline-block;
+}
+footer p{
+	display: inline-block;
+}
+.container .row div{
+	margin: 0 auto;
+}
+.container .row div:hover{
+	opacity: 90%;
+}
+.container{
+	min-height: 80vh;
+}
+#footer{
+	background-color: #d8d8d8;
+	border:solid #d8d8d8;
+}
+#footer p{
+	display: inline-block; 
+	font-size: 80%;
+}
+#footer a{
+	display: inline-block;
+}
+#footer footer>div{
+	display: inline-block;
+}
+
+@media screen and (min-width: 540px){
+	#darkmode{
+		display: inline-block;
+	    margin-right: 0;
+	    margin-left: auto;
+	    width: 9%;
+	    background: #404949;
+	    border: none;
+	}
+	#guide{
+		display: inline-block;
+
+	}
+	#guide button{
+		width: 100%;
+		
+	}
+	#dropdown-menu{
+		width: 50vh;
+	}
+	.dropdown-item{
+		text-align: left;
+}
+	.nav-link{
+		display: inline-block;
+	}
+	#home{
+		display: inline-block;
+	}
+	#about{
+		display: inline-block;
+	}
+	#burger{
+		display: none;
+	}
+	nav a:hover{
+		border-bottom: solid 5px purple;
+	}
+	.active{
+		border-bottom: solid 5px white;
+}
+}
+

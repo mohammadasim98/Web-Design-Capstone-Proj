@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Online Tour Guide</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/external.css">
+</head>
+<body id="body">
+	<div class="container-fluid" id="header-nav">
+		<div class="row">
+			<div class="col">
+				<nav class="nav nav-pills">
+					<button onclick="displaymenu()" id="burger" class="btn btn-secondary"><i class="fa fa-bars"></i></button>
+					<a id="home" class="nav-link active" href="index.html">Home</a>
+					<div id="guide" class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Guide
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
+					    <a class="dropdown-item" id="dropdown-item1" href="calender.html">Calender</a>
+					    <a class="dropdown-item" id="dropdown-item2" href="maps.html">Maps</a>
+					    <a class="dropdown-item" id="dropdown-item3" href="#">Something else here</a>
+					  </div>
+					</div>
+					<a id="about" class="nav-link" href="about.html">About</a>
+					<button id="darkmode" onclick="darkmode()" class="btn btn-secondary"><i class="fa fa-moon-o"></i></button>
+					
+				</nav>
+			</div>
+		</div>
+		<div class="row" id="img">
+			<div class="col">
+				<header>
+					<img src="images/header.jpg" class="img-fluid" alt="header image">
+				</header>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<h1>Some of the most common place to visit</h1>
+		<hr>
+		<div class="row ">
+			<div class="col-md-4 col-lg-3 mt-3">
+				<a href="#"><img src="images/pyramidofgiza/pyramid1.jpg" alt="Pyramid of Giza"></a>
+				<p>
+					<b>Great Pyramid of Giza</b>, Egypt is one of the most common places to visit despite of the harsh desert environment. People from all over Europe tends to visit this site more often than from Asian and middle Eastern countries
+				</p>
+				<DETAILS>
+					<summary>Click for more info</summary>
+					<p><strong>Located in:</strong><a href="#"> Giza Necropolis</a></p>
+					<p><strong>Address:</strong> Al Haram, Nazlet El-Semman, Al Giza Desert, Giza Governorate, Egypt</p>
+					<p><strong>Height:</strong> 139 m</p>
+					<p><strong>Constructed:</strong> c. 2580–2560 BC (4th dynasty)</p>
+					<p><strong>Architect:</strong><a href="#">Hemiunu</a></p>
+					<p><strong>Materials:</strong><a href="#">Limestone, Granite, Basalt, Mortar</a></p>
+				</DETAILS>
+			</div>
+			<div class="col-md-4 col-lg-3 mt-3">
+				<a href="#"><img src="images/eiffeltower/eiffel3.jpg" alt="Eiffel Tower"></a>
+				<p>
+					<b>Eiffel Tower</b> is located in Paris, France which also one o the tourist hotspot especially for Asian and Europeans. The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.
+				</p>
+				<details>
+					<summary>Click for more info</summary>
+					<p><strong>Located in:</strong><a href="#">Champ de Mars</a></p>
+					<p><strong>Address:</strong> Al Haram, Nazlet El-Semman, Al Giza Desert, Giza Governorate, Egypt</p>
+					<p><strong>Height:</strong> 300 m, 324 m to tip</p>
+					<p><strong>Construction started:</strong> January 28, 1887</p>
+					<p><strong>Architect:</strong><a href="#">Stephen Sauvestre, Maurice Koechlin, Émile Nouguier</a></p>
+					<p><strong>Hours:</strong> Open ⋅ Closes 12:45AM</p>
+				</details>
+			</div>
+			<div class="col-md-4 col-lg-3 mt-3">
+				<a href="#"><img src="images/berlinwall/berlin1.jpg" alt="Berlin Wall Memorial"></a>
+				<p>
+					<b>Berlin Wall</b>, obviously located in Berlin once divided Berlin in eastern and western Berlin during Cold War. The eastern section was controlled by the soviets regime and the western section was under the Allies. 
+				</p>
+				<details>
+					<SUMMARY>Click for more info</SUMMARY>
+					<p><strong>Address:</strong> Bernauer <i>Str. 111, 13355</i> Berlin, Germany</p>
+					<p><strong>Opened:</strong> 1998</p>
+					<p><strong>Tickets:</strong>  free · <a href="https://berliner-mauer-gedenkstaette.de/de/">berliner-mauer-gedenkstaette.de</a></p>
+					<p><strong>Phone:</strong><a href="#">+49 30 467986666</a></p>
+				</details>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid mt-5" id="footer">
+		<div class="row">
+			<div class="col">
+				<footer>
+					<p class="col-lg-4 text-center">&copy; 2020 Online Tour Guide</p>
+					<div class="col-lg-3 text-center">
+						<a href="">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-linkedin"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</div>
+					<p class="col-lg-4 text-center">Email us at <b>xyz@gmail.com</b></p>
+				</footer>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		var x = 0;
+		function displaymenu(){
+			x++;
+			if(x%2 !=0){
+				document.getElementById("home").style.display = "block";
+				document.getElementById("guide").style.display = "block";
+				document.getElementById("about").style.display = "block";
+				document.getElementById("darkmode").style.display = "block";
+				document.getElementById("guide").style.margin = "0px 8px";
+				document.getElementById("darkmode").style.width = "100%";
+				document.getElementById("home").style.width = "100%";
+				document.getElementById("guide").style.width = "100%";
+				document.getElementById("dropdownMenuButton").style.width = "100%";
+				document.getElementById("about").style.width = "100%";
+				
+
+			}
+			else{
+				document.getElementById("darkmode").style.display = "";
+				document.getElementById("home").style.display = "";
+				document.getElementById("guide").style.display = "";
+				document.getElementById("about").style.display = "";
+				document.getElementById("darkmode").style.width = "";
+				document.getElementById("home").style.width = "";
+				document.getElementById("guide").style.width = "";
+				document.getElementById("about").style.width = "";
+			}
+		}
+		var y = 0;
+		function darkmode(){
+			y++;
+			if(y%2 != 0){
+				body.style.backgroundColor = "#2f2f2f";
+				body.style.color = "White";
+				document.getElementById("footer").style.color = "black";
+				document.getElementById("dropdown-menu").style.background = "#404949";
+				document.getElementById("dropdown-item1").style.color = "#ffffff";
+				document.getElementById("dropdown-item2").style.color = "#ffffff";
+				document.getElementById("dropdown-item3").style.color = "#ffffff";
+			}
+			else{
+				body.style.backgroundColor = "";
+				body.style.color = "";
+				document.getElementById("footer").style.color = "";
+				document.getElementById("dropdown-menu").style.background = "";
+				document.getElementById("dropdown-item1").style.color = "";
+				document.getElementById("dropdown-item2").style.color = "";
+				document.getElementById("dropdown-item3").style.color = "";
+			}
+		}
+	</script>
+</body>
+</html>
